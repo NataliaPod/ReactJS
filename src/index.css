@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-submit{
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 25px;
+  margin: auto;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  height: 46px;
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #444;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(65, 132, 144, 10), 0 1px 3px rgba(0,  0, 0, 8);
+  cursor: pointer;
+  vertical-align: top;
+  transition: box-shadow 0.2s;
+}
+
+.btn-submit:hover{
+  transition: all 0.2s;
+  box-shadow: 0 7px 14px rgba(65, 132, 144, 10), 0 3px 6px rgba(0,  0, 0, 8);
+}
